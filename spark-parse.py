@@ -1,4 +1,4 @@
 import pandas as pd
-import pyspark
+from pyspark.sql import SparkSession
 
 print("I am alive")
