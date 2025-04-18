@@ -1,6 +1,18 @@
 📁 Step-by-Step: Add a CSV File to HDFS
 
-Let’s say you have a file called flows.csv in your local machine:
+📁 1. Using a shared directory
+
+# As user1
+```bash
+cp myfile.txt /tmp
+chmod 644 /tmp/myfile.txt
+```
+Then user2 can:
+```bash
+cp /tmp/myfile.txt ~/
+```
+    /tmp is readable and writable by all users by default.
+
 ✅ 1. Start HDFS (if not running)
 
 Make sure HDFS is up:
