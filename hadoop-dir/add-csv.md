@@ -7,7 +7,7 @@
 cp myfile.txt /tmp
 chmod 644 /tmp/myfile.txt
 ```
-Then user2 can:
+# As  user2:
 ```bash
 cp /tmp/myfile.txt ~/
 ```
