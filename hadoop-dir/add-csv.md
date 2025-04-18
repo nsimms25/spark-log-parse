@@ -11,7 +11,7 @@ chmod 644 /tmp/myfile.txt
 ```bash
 cp /tmp/myfile.txt ~/
 ```
-    /tmp is readable and writable by all users by default.
+/tmp is readable and writable by all users by default.
 
 ✅ 1. Start HDFS (if not running)
 
